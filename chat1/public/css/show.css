@@ -1,0 +1,39 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    padding-left:50px;
+    padding-right:50px;
+    background-color: rgb(245, 196, 228);
+}
+h1{
+    color:rgb(83, 17, 26);
+}
+header{
+    padding-top: 20px;
+}
+header h1{
+    float: left;
+}
+header li{
+    float:right;
+    padding-top:10px;
+    padding-right:30px;
+    display: inline-block;
+}
+.cb{
+    /* floatを解除 */
+    clear: left;
+  }
+.main_contents{
+    padding:10px;
+    margin:0 auto;
+    border:solid 1px #000;
+    width:70%;
+}
+.article_form{
+    padding:10px;
+    margin:0 auto;
+    width:70%;
+}
